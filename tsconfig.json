@@ -45,7 +45,7 @@
     "types": [
       "react",
       "react-native"
-    ]
+    ],
     /* Source Map Options */
     // "sourceRoot": "./",                    /* Specify the location where debugger should locate TypeScript files instead of source locations. */
     // "mapRoot": "./",                       /* Specify the location where debugger should locate map files instead of generated locations. */
@@ -54,7 +54,7 @@
 
     /* Experimental Options */
     // "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
-    // "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+    "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
   },
   "include": [
     "App.js"

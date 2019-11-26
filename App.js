@@ -7,17 +7,16 @@ import {
   State,
 } from 'react-native-gesture-handler';
 import Animated from 'react-native-reanimated';
-import { decay, clamp, parsePath, getPointAtLength } from "react-native-redash";
 
 const { set, cond, block, eq, add, Value, event, concat, multiply } = Animated;
 
-export default class Example extends React.PureComponent {
+export default class Example extends Component {
   constructor(props) {
     super(props);
     this.X = new Value(0);
     this.Y = new Value(0);
     this.R = new Value(0);
-    this.Z = new Value(0);
+    this.Z = new Value(1);
     const offsetX = new Value(0);
     const offsetY = new Value(0);
     const offsetR = new Value(0);
